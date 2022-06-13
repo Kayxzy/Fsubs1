@@ -1,12 +1,12 @@
 {
-  "name": "Ayiin-File-Sharing3",
+  "name": "Ayiin-File-Sharing1",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Kayxzy/Ayiin-File-Sharing3",
+  "repository": "https://github.com/Kayxzy/Fsubs1",
   "logo": "https://telegra.ph/file/21bca0a64032cd5b23b3c.jpg",
   "env": {
     "TG_BOT_TOKEN": {
@@ -41,14 +41,6 @@
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
       "value": "-100"
     },
-    "FORCE_SUB_CHANNEL1": {
-      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-100"
-    },
-    "FORCE_SUB_GROUP": {
-      "description": "Masukan ID dari Group Untuk Wajib Subscribenya",
-      "value": "-100"
-    },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
       "value": "<b>Hello {first}\n\nSaya dapat menyimpan file pribadi di Channel Tertentu dan pengguna lain dapat mengaksesnya dari link khusus.</b>"
@@ -60,11 +52,6 @@
     "CHANNEL":{
       "description": "Masukan Username Channel anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
       "value": "AyiinSupport",
-      "required": false
-    },
-    "GROUP":{
-      "description": "Masukan Username dari Group anda Untuk Wajib Subscribenya [ Jangan Pake @ ]",
-      "value": "AyiinXdSupport",
       "required": false
    } 
   },
